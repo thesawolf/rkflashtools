@@ -112,7 +112,8 @@ static void usage(void) {
           "\trkflashtool i offset blocks >file \tread IDB flash\n"
           "\trkflashtool r offset size >file \tread flash\n"
           "\trkflashtool w offset size <file \twrite flash\n"
-          "\trkflashtool p >file             \tfetch parameters\n\n"
+          "\trkflashtool p >file             \tfetch parameters\n"
+	  "\trkflashtool e offset size       \terase flash\n\n"
           "\toffset and size are in units of 512 bytes\n");
 }
 
